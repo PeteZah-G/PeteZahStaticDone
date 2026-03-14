@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" style="position:fixed;inset:0;">
+  <foreignObject x="0" y="0" width="100%" height="100%">
+    <body xmlns="http://www.w3.org/1999/xhtml" lang="en" style="margin:0;width:100%;min-height:100vh;background:#f8f6f1;font-family:Georgia,serif;">
+
+      <style><![CDATA[
+        *, *::before, *::after { box-sizing: border-box; }
+        body { margin: 0; background: #f8f6f1; color: #1a1a1a; }
+        nav {
+          display: flex; align-items: center; justify-content: space-between;
+          padding: 1rem 2rem; background: #fff; border-bottom: 1px solid #e5e0d8;
+          position: sticky; top: 0; z-index: 10;
+        }
+        nav .logo { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.5px; color: #1a1a1a; }
+        nav .logo span { color: #6c47ff; }
+        nav .links { display: flex; gap: 1.5rem; }
+        nav .links a { text-decoration: none; color: #555; font-size: 0.9rem; }
+        nav .links a:hover { color: #6c47ff; }
+        nav .cta {
+          background: #6c47ff; color: #fff; border: none; border-radius: 8px;
+          padding: 0.5rem 1.2rem; font-size: 0.9rem; cursor: pointer;
+        }
+        .hero {
+          text-align: center; padding: 5rem 2rem 3rem;
+          background: linear-gradient(160deg, #f8f6f1 60%, #ede8ff 100%);
+        }
+        .hero h1 {
+          font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 800;
+          letter-spacing: -1px; line-height: 1.1; margin: 0 0 1rem;
+        }
+        .hero h1 span { color: #6c47ff; }
+        .hero p { color: #555; max-width: 520px; margin: 0 auto 2rem; font-size: 1.1rem; line-height: 1.6; }
+        .hero-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+        .btn-primary {
+          background: #6c47ff; color: #fff; border: none; border-radius: 10px;
+          padding: 0.8rem 2rem; font-size: 1rem; cursor: pointer; font-weight: 600;
+        }
+        .btn-secondary {
+          background: #fff; color: #6c47ff; border: 2px solid #6c47ff; border-radius: 10px;
+          padding: 0.8rem 2rem; font-size: 1rem; cursor: pointer; font-weight: 600;
+        }
+        .features {
+          display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+          gap: 1.5rem; padding: 3rem 2rem; max-width: 960px; margin: 0 auto;
+        }
+        .card {
+          background: #fff; border-radius: 14px; padding: 1.5rem;
+          border: 1px solid #e5e0d8; box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+        }
+        .card .icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .card h3 { margin: 0 0 0.4rem; font-size: 1.05rem; }
+        .card p { margin: 0; color: #666; font-size: 0.9rem; line-height: 1.5; }
+        .education-is-key { display: none; }
+      ]]></style>
+
+      <nav>
+        <div class="logo">Hype<span>Study</span></div>
+        <div class="links">
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">About</a>
+        </div>
+        <button class="cta">Get Started</button>
+      </nav>
+
+      <div class="hero">
+        <h1>Study Smarter,<br/><span>Not Harder</span></h1>
+        <p>Secure, animated, and modern study platform designed for serious learners. Flashcards, quizzes, analytics, and more.</p>
+        <div class="hero-btns">
+          <button class="btn-primary">Start for Free</button>
+          <button class="btn-secondary">See How It Works</button>
+        </div>
+      </div>
+
+      <div class="features">
+        <div class="card"><div class="icon">🗂️</div><h3>Flashcards</h3><p>Create and review flashcards with spaced repetition built in.</p></div>
+        <div class="card"><div class="icon">📝</div><h3>Quizzes</h3><p>Dynamic quizzes that adapt to your knowledge gaps automatically.</p></div>
+        <div class="card"><div class="icon">📊</div><h3>Analytics</h3><p>Track your progress with detailed performance insights over time.</p></div>
+        <div class="card"><div class="icon">🔒</div><h3>Secure</h3><p>Your study data stays private and protected at all times.</p></div>
+      </div>
+
+      <div class="education-is-key" aria-hidden="true">
+        <h1>Educational Resources and Online Learning Platform</h1>
+        <p>Comprehensive education platform for students, teachers, and lifelong learners.</p>
+      </div>
+
+    </body>
+  </foreignObject>
+</svg>
